@@ -1,0 +1,14 @@
+# Prevent local build artifacts from being uploaded.
+.next
+.next-build
+.next-build/**
+node_modules
+.git
+.DS_Store
+.env
+.env.*
+prisma/dev.db
+prisma/dev.db-*
+public/uploads
+public/uploads/**
+
